@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+h1, h2, h3, h4, h5, button{
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    background-image: url(projectImages/party.png);
+    background-size: cover;
+    height: 100vh;
+    padding: 1px;
+}
+
+h1{
+    margin-left: 10rem;
+    margin-top: 10rem;
+    color: white;
+    font-size: 40px;
+}
+
+h2{
+    color: #A80E0E;
+}
+
+header div{
+    -webkit-clip-path: polygon(100% 0, 85% 50%, 99% 100%, 0 100%, 15% 50%, 0 0);
+    clip-path: polygon(100% 0, 85% 50%, 99% 100%, 0 100%, 15% 50%, 0 0);
+    background-color: #FFAA00;
+    color: white;
+    width: 35%;
+    height: 20%;
+    margin-left: 7rem;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+header h3{
+    font-weight: normal;
+    font-size: 34px;
+    margin-top: 10px;
+}
+
+header button {
+    margin-left: 10rem;
+    margin-top: 7rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    border-radius: 28px;
+    color: #A80E0E;
+    font-size: 16px;
+    background: #FFAA00;
+    padding: 5px 18px;
+    text-decoration: none;
+    border: none;
+  }
+
+  .btn:hover {
+    background: #FFDD00;
+  }
+
+header ul{
+    background-color: rgba(40, 25, 35, 0.61);
+    position: fixed;
+    margin-top: 0;
+    top: 0.5rem;
+    left: 25rem;
+    padding: 1rem 0;
+    font-size: 0;
+}
+
+header li{
+    color: white;
+    padding: 1rem 1rem;
+    display: inline;
+    border-right: solid 1.5px rgba(0, 0, 0, 0.61);
+    font-size: 16px;
+}
+
+.red-item{
+    background-color: #A80E0E;
+    border: none;
+}
+
+.item {
+    opacity: 61%;
+}
+
+header a{
+    color: white;
+    opacity: 100%;
+}
+
+header img{
+    position: fixed;
+    width: 6rem;
+    height: 6rem;
+    margin-left: 10rem;
+}
+
+
+
+#menu{
+    margin-top: 10rem;
+}
+
+.title{
+    text-align: center;
+    margin-left: 10rem;
+}
+
+#menu h2:first-of-type{
+    color:#A80E0E;
+}
+
+.list{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10rem;
+}
+
+.ad{
+    background-color: #FFAA00;
+}
+
+.ad img{
+    margin-left: 10rem;
+}
+
+.ad div{
+    -webkit-clip-path: polygon(0 20%, 0 80%, 100% 50%);
+    clip-path: polygon(0 20%, 0 80%, 100% 50%);
+    background-color: #A80E0E;
+    width: 25%;
+    height: 20%;
+    color: #fff;
+}
+
+#menu a{
+    color: black;
+}
+
+#gallery{
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+#gallery article{
+    border-radius: 25px;
+    width: 34.7%;
+    height: 25%;
+    box-shadow: 11px 7px 16px 5px rgba(0,0,0,0.11);
+
+}
+
+#gallery a{
+    color: black;
+}
+
+.details {
+    margin-left: 1rem;
+    display: inline-block;
+    font-weight: 200;
+}
+
+.details #price {
+    float: right;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+
+#testimonials{
+    width: 50%;
+}
+
+#describtion img{
+    height: 25rem;
+    margin-right: 2rem;
+}
+
+#describtion p{
+    float: right;
+    position: relative;
+    bottom: 15rem;
+    left: 28rem;
+}
+
+.red-background{
+    background-color: #A80E0E;
+    color: #fff;
+    font-weight: 200;
+    padding-bottom: 3rem;
+}
+
+.red-background .map{
+    position: relative;
+    float: right;
+    bottom: 26.8rem;
+    width: 50%;
+}
+
+.red-background a{
+    color: #fff;
+    margin: 0 1rem;
+}
+
+.red-background li{
+    margin-bottom: 3.5rem;
+}
+
+li img{
+    float: left;
+    margin-right: 1rem;
+}
+
+.red-background ul{
+    list-style-type: none;
+}
